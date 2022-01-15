@@ -9,12 +9,16 @@ body{
 
 /* -------------HEADER --------------------- */
 
-.header{
+.container-fluid header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
     background-color: #FFF4D4;
     text-align: center;
+}
+
+.container-fluid {
+    background-color: #FFF4D4;
 }
 
 .header:hover {
@@ -188,21 +192,20 @@ body{
 }
 
 /* -----------FOOTER------------- */
-.footer{
+.container-fluid footer{
     background-color: #FFF4D4;
-    padding: 1rem;
-    text-align: center;
-    color: black;
-}
-
-.footer:hover {
-    background-color: #FFE497;
+    text-align-last: center;
 }
 
 .footer ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
+
+.footer__navbar li{
+    display: inline-block;
+}
+
 .footer__navbar a {
     text-transform: uppercase;
     color: black;

@@ -17,30 +17,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,700;0,800;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css-bt/bootstrap.min.css">
 </head>
 
 <body>
 
     <!-- header -->
-    <header class="header">
+    <!-- header -->
+    <header class="container-fluid header">
         <!-- logo -->
-        <div class="site-logo">
-            <a href="index.html">
-                <img src="img/logoTulipan.png" alt="logoTulipan">
-            </a>
+        <div class="row">
+            <div class="col">
+                <a href="index.html">
+                    <img src="img/logoTulipan.png" alt="logoTulipan">
+                </a>
+            </div>
+            <!-- logo -->
+            <!-- menu -->
+            <div class="col">
+                <nav class="header__navbar">
+                    <ul class="header__navbar--principal">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="nosotros.html">Acerca de Nosotros</a> </li>
+                        <li> <a href="galeria.html">Galeria</a> </li>
+                        <li> <a href="reservacion.html">Reservaciones</a> </li>
+                        <li> <a href="contacto.html">Contacto</a> </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <!-- logo -->
-        <!-- menu -->
-        <nav class="header__navbar">
-            <ul class="header__navbar--principal">
-                <li> <a href="index.html">Home</a> </li>
-                <li> <a href="nosotros.html">Acerca de Nosotros</a> </li>
-                <li> <a href="galeria.html">Galeria</a> </li>
-                <li> <a href="reservacion.html">Reservaciones</a> </li>
-                <li> <a href="contacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
         <!-- menu -->
     </header>
     <!-- header -->
@@ -70,17 +76,21 @@
     <!-- contenido -->
 
     <!-- footer -->
-    <footer class="footer">
-        <h4> Tulipe SPA</h4>
-        <nav class="footer__navbar">
-            <ul class=" footer____navbar--principal">
-                <li> <a href="index.html">Home</a> </li>
-                <li> <a href="nosotros.html">Acerca de Nosotros</a> </li>
-                <li> <a href="galeria.html">Galeria</a> </li>
-                <li> <a href="reservacion.html">Reservaciones</a> </li>
-                <li> <a href="contacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
+    <footer class="container-fluid footer">
+        <div class="row">
+            <h4> Tulipe SPA</h4>
+        </div>
+        <div class="row">
+            <nav class="footer__navbar">
+                <ul class=" footer____navbar--principal">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="nosotros.html">Acerca de Nosotros</a> </li>
+                    <li> <a href="galeria.html">Galeria</a> </li>
+                    <li> <a href="reservacion.html">Reservaciones</a> </li>
+                    <li> <a href="contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
     <!-- footer -->
 
