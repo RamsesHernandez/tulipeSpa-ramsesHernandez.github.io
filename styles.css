@@ -17,6 +17,10 @@ body{
     text-align: center;
 }
 
+.header:hover {
+    background-color: #FFE497;
+}
+
 /*  ------NAVBAR */
 
 .header__navbar ul{
@@ -26,13 +30,19 @@ body{
 .header__navbar li{
     display: inline-block;
 }
+
+
 .header__navbar a {
-    text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     padding: .2rem;
+}
+
+.header__navbar a:hover {
+    font-size: 1.4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* ----------CONTENIDO --------------------*/
@@ -67,10 +77,19 @@ body{
 }
 
 .section__main input {
-    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFAD00;
     height: 3rem;
     width: 6rem;
     font-size: 1rem;
+}
+
+.section__main input:hover {
+    background-color: #FFBD00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    width: 6.5rem;
 }
 
 .section__reservacion{
@@ -159,6 +178,14 @@ body{
     text-align: center;
 }
 
+.section__galeria:hover {
+    background-color: #ffe27b;
+}
+
+.section__galeria img:hover {
+    width: 450px;
+    height: 250px;
+}
 
 /* -----------FOOTER------------- */
 .footer{
@@ -167,11 +194,24 @@ body{
     text-align: center;
     color: black;
 }
+
+.footer:hover {
+    background-color: #FFE497;
+}
+
 .footer ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
-.footer__navbar a{
+.footer__navbar a {
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: .2rem;
+}
+
+.footer__navbar a:hover {
+    font-size: 1.4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
