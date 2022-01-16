@@ -21,34 +21,6 @@ body{
     background-color: #FFF4D4;
 }
 
-.header:hover {
-    background-color: #FFE497;
-}
-
-/*  ------NAVBAR */
-
-.header__navbar ul{
-    padding-top: 2em;
-    list-style-type: none;
-}
-.header__navbar li{
-    display: inline-block;
-}
-
-
-.header__navbar a {
-    text-transform: uppercase;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
-    padding: .2rem;
-}
-
-.header__navbar a:hover {
-    font-size: 1.4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 /* ----------CONTENIDO --------------------*/
 .section__main{
     background-image: url(/img/haciendaRetro.jpg);
@@ -172,14 +144,19 @@ body{
     margin-bottom: 1rem;
 }
 
-.section__galeria {
-    display: grid;
-    background-color: #FFDE64;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    padding-top: 3rem;
-    height: 78vh;
-    text-align: center;
+.container-fluid-contacto {
+    padding-right: 20rem;
+    padding-left: 20rem;
+}
+
+.collapse-nosotros {
+    padding: 3rem ;
+}
+
+.container-fluid-gal {
+    padding: 3.5rem;
+    background-color: #ffe27b;
+    align-items: center;
 }
 
 .section__galeria:hover {

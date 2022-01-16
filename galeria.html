@@ -34,43 +34,78 @@
                 </a>
             </div>
             <!-- logo -->
-            <!-- menu -->
+            <!-- navbar -->
             <div class="col">
-                <nav class="header__navbar">
-                    <ul class="header__navbar--principal">
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> <a href="nosotros.html">Acerca de Nosotros</a> </li>
-                        <li> <a href="galeria.html">Galeria</a> </li>
-                        <li> <a href="reservacion.html">Reservaciones</a> </li>
-                        <li> <a href="contacto.html">Contacto</a> </li>
-                    </ul>
-                </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">Home</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="nosotros.html">Acerca de Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="reservacion.html">Reservaciones</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </div>
-        <!-- menu -->
+        <!-- navbar -->
     </header>
     <!-- header -->
 
     <!-- contenido -->
-    <section class="section__galeria">
-        <a target="_blank" href="img/hacienda.jpg">
-            <img src="img/hacienda.jpg" alt="hacienda" width="400" height="200">
-        </a>
-        <a target="_blank" href="img/haciendaPatio.jpg">
-            <img src="img/haciendaPatio.jpg" alt="haciendaPatio" width="400" height="200">
-        </a>
-        <a target="_blank" href="img/HaciendaSpa2.jpg">
-            <img src="img/HaciendaSpa2.jpg" alt="haciendaSpa2" width="400" height="200">
-        </a>
-        <a target="_blank" href="img/haciendaRestaurante.jpg">
-            <img src="img/haciendaRestaurante.jpg" alt="haciendaRestaurante" width="400" height="200">
-        </a>
-        <a target="_blank" href="img/haciendaAlberca.jpg">
-            <img src="img/haciendaAlberca.jpg" alt="haciendaAlberca" width="400" height="200">
-        </a>
-        <a target="_blank" href="img/haciendaHabitacion.jpg">
-            <img src="img/haciendaHabitacion.jpg" alt="haciendaHabitacion" width="400" height="200">
-        </a>
+<section class="container-fluid-gal">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/hacienda.jpg" class="d-block w-100" width="1000" height="500" alt="hacienda">
+          </div>
+          <div class="carousel-item">
+            <img src="img/haciendaPatio.jpg" class="d-block w-100" width="1000" height="500" alt="haciendaPatio">
+          </div>
+          <div class="carousel-item">
+            <img src="img/HaciendaSpa2.jpg" class="d-block w-100" width="1000" height="500" alt="HaciendaSpa2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/haciendaRestaurante.jpg" class="d-block w-100" width="1000" height="500" alt="haciendaRestaurante">
+          </div>
+          <div class="carousel-item">
+            <img src="img/haciendaAlberca.jpg" class="d-block w-100" width="1000" height="500" alt="haciendaAlberca">
+          </div>
+          <div class="carousel-item">
+            <img src="img/haciendaHabitacion.jpg" class="d-block w-100" width="1000" height="500" alt="haciendaHabitacion">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <!-- contenido -->
@@ -95,5 +130,6 @@
     <!-- footer -->
 
 </body>
+<script src="js-bt/bootstrap.min.js"></script>
 
 </html>
