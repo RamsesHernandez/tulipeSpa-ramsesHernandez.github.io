@@ -33,20 +33,35 @@
                 </a>
             </div>
             <!-- logo -->
-            <!-- menu -->
+            <!-- navbar -->
             <div class="col">
-                <nav class="header__navbar">
-                    <ul class="header__navbar--principal">
-                        <li> <a href="index.html">Home</a> </li>
-                        <li> <a href="nosotros.html">Acerca de Nosotros</a> </li>
-                        <li> <a href="galeria.html">Galeria</a> </li>
-                        <li> <a href="reservacion.html">Reservaciones</a> </li>
-                        <li> <a href="contacto.html">Contacto</a> </li>
-                    </ul>
-                </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">Home</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="nosotros.html">Acerca de Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="reservacion.html">Reservaciones</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
             </div>
         </div>
-        <!-- menu -->
+        <!-- navbar -->
     </header>
     <!-- header -->
 
@@ -55,9 +70,7 @@
         <img src="img/tulipan.png" alt="tulipan">
         <h1>Tulip SPA</h1>
         <h2>Donde tu paz es nuetra prioridad</h2>
-        <a href="reservacion.html">
-            <input type="button" value="Reserva" />
-        </a>
+        <a class="btn btn-warning" href="reservacion.html" role="button">Reserva</a>
     </section>
     <!-- contenido -->
 
