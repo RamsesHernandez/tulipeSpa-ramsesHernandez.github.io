@@ -1,56 +1,55 @@
-*{
-    padding: 0px;
-    margin: 0px;
+.container-fluid{
+    background-color: #FFF4D4;
 }
-
-body{
-    font-family: 'Nunito Sans', sans-serif;
-}
-
 /* -------------HEADER --------------------- */
-
-.container-fluid header{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
+.header {
     background-color: #FFF4D4;
-    text-align: center;
+    font-size: 20px;
 }
-
-.container-fluid {
-    background-color: #FFF4D4;
+.header .col{
+    padding: 1rem;
 }
-
+.logoTulipe {
+    padding-left: 5rem;
+}
 /* ----------CONTENIDO --------------------*/
-.section__main{
+/* ----------HOME---------*/
+.section__mainHome{
     background-image: url(/img/haciendaRetro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 83vh;
+    height: 82vh;
     text-align: center;
 }
 
-.section__main img{
-    padding-top: 14rem;
-    height: 10vh;
+.tulipeImg {
+    margin: 5rem;
+    height: 12rem;
+    width: 13rem;
 }
 
-.section__main h1{
-    color: white;
-    font-size: 5rem;
-    font-style: bold;
-    padding-bottom: 2rem;
-    margin-right: auto;
-    margin-left: auto;
+.section__mainHome .row{
+    place-content: center;
+
 }
 
-.section__main h2 {
+.section__mainHome p{
+    background-color: rgba(224, 224, 224, 0.349);
     color: white;
-    font-size: 2rem;
-    font-style: italic;
-    padding-bottom: 2rem;
+    font-size: 4rem;
+    width: fit-content;
+    font-family: 'Lobster', cursive;
 }
+
+.section__mainHome h2 {
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Sriracha', cursive;
+}
+/* ----------HOME---------*/
+
 
 .section__main input {
     font-family: 'Courier New', Courier, monospace;
@@ -170,28 +169,40 @@ body{
 
 /* -----------FOOTER------------- */
 .container-fluid footer{
-    background-color: #FFF4D4;
     text-align-last: center;
 }
 
-.footer ul{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+.container-fluid footer a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.footer__navbar li{
-    display: inline-block;
+.container-fluid footer h4 {
+    font-family: 'Lobster', cursive;
 }
 
-.footer__navbar a {
-    text-transform: uppercase;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
-    padding: .2rem;
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+ }
+ .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 
-.footer__navbar a:hover {
-    font-size: 1.4rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.fa-youtube {
+    background: #bb0000;
+    color: white;
 }
