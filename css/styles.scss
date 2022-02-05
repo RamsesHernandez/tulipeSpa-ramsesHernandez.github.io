@@ -1,9 +1,13 @@
-.container-fluid{
+@import "extends";
+@import "maps";
+@import "mixin";
+
+/* .container-fluid{
     background-color: #FFF4D4;
-}
+} */
 
 /* -------------HEADER --------------------- */
-.header {
+/* .header {
     background-color: #FFF4D4;
     font-size: 20px;
 
@@ -17,7 +21,7 @@
         }
     }
 
-}
+} */
 
 /* ----------CONTENIDO --------------------*/
 /* ----------HOME---------*/
@@ -38,12 +42,8 @@
     .row {
         place-content: center;
 
-        p {
-        background-color: rgba(224, 224, 224, 0.349);
-        color: white;
-        font-size: 4rem;
-        width: fit-content;
-        font-family: 'Lobster', cursive;
+        .p {
+            @include parrafosMixin;
         }
 
 

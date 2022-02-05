@@ -1,0 +1,9 @@
+/*MAPS*/
+
+$mapRedes:(instagram: #125688, facebook: #3B5998, youtube:#bb0000 );
+
+@each $red, $background in $mapRedes {
+    .#{$red}--link{
+        background: $background;
+    }
+}

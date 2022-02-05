@@ -1,0 +1,17 @@
+/*EXTENDS*/
+.container-fluid, .header {
+  background-color: #FFF4D4;
+}
+
+.header {
+  font-size: 20px;
+}
+
+.header .row .col {
+  padding: 1rem;
+}
+
+.header .row .col .logoTulipe {
+  padding-left: 5rem;
+}
+/*# sourceMappingURL=extends.css.map */

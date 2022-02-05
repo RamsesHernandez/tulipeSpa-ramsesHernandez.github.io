@@ -1,10 +1,9 @@
-.container-fluid {
+/*EXTENDS*/
+.container-fluid, .header {
   background-color: #FFF4D4;
 }
 
-/* -------------HEADER --------------------- */
 .header {
-  background-color: #FFF4D4;
   font-size: 20px;
 }
 
@@ -16,6 +15,39 @@
   padding-left: 5rem;
 }
 
+/*MAPS*/
+.instagram--link {
+  background: #125688;
+}
+
+.facebook--link {
+  background: #3B5998;
+}
+
+.youtube--link {
+  background: #bb0000;
+}
+
+/*Mixin*/
+/* .container-fluid{
+    background-color: #FFF4D4;
+} */
+/* -------------HEADER --------------------- */
+/* .header {
+    background-color: #FFF4D4;
+    font-size: 20px;
+
+    .row {
+        .col {
+            padding: 1rem;
+
+            .logoTulipe {
+                padding-left: 5rem;
+            }
+        }
+    }
+
+} */
 /* ----------CONTENIDO --------------------*/
 /* ----------HOME---------*/
 .section__mainHome {
@@ -37,7 +69,7 @@
   place-content: center;
 }
 
-.section__mainHome .row p {
+.section__mainHome .row .p {
   background-color: rgba(224, 224, 224, 0.349);
   color: white;
   font-size: 4rem;

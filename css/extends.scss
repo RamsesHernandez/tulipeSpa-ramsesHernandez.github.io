@@ -1,0 +1,19 @@
+/*EXTENDS*/
+.container-fluid {
+    background-color: #FFF4D4;
+}
+
+.header {
+    @extend .container-fluid;
+    font-size: 20px;
+
+    .row {
+        .col {
+            padding: 1rem;
+
+            .logoTulipe {
+                padding-left: 5rem;
+            }
+        }
+    }
+}
