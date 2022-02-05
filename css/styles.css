@@ -1,208 +1,100 @@
-.container-fluid{
-    background-color: #FFF4D4;
+.container-fluid {
+  background-color: #FFF4D4;
 }
+
 /* -------------HEADER --------------------- */
 .header {
-    background-color: #FFF4D4;
-    font-size: 20px;
+  background-color: #FFF4D4;
+  font-size: 20px;
 }
-.header .col{
-    padding: 1rem;
+
+.header .row .col {
+  padding: 1rem;
 }
-.logoTulipe {
-    padding-left: 5rem;
+
+.header .row .col .logoTulipe {
+  padding-left: 5rem;
 }
+
 /* ----------CONTENIDO --------------------*/
 /* ----------HOME---------*/
-.section__mainHome{
-    background-image: url(/img/haciendaRetro.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 82vh;
-    text-align: center;
+.section__mainHome {
+  background-image: url(/img/haciendaRetro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 82vh;
+  text-align: center;
 }
 
-.tulipeImg {
-    margin: 5rem;
-    height: 12rem;
-    width: 13rem;
+.section__mainHome .tulipeImg {
+  margin: 5rem;
+  height: 12rem;
+  width: 13rem;
 }
 
-.section__mainHome .row{
-    place-content: center;
-
+.section__mainHome .row {
+  place-content: center;
 }
 
-.section__mainHome p{
-    background-color: rgba(224, 224, 224, 0.349);
-    color: white;
-    font-size: 4rem;
-    width: fit-content;
-    font-family: 'Lobster', cursive;
+.section__mainHome .row p {
+  background-color: rgba(224, 224, 224, 0.349);
+  color: white;
+  font-size: 4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Lobster', cursive;
 }
 
-.section__mainHome h2 {
-    padding-bottom: 1rem;
-    color: white;
-    font-size: 3rem;
-    font-family: 'Sriracha', cursive;
+.section__mainHome .row h2 {
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Sriracha', cursive;
 }
+
 /* ----------HOME---------*/
-
-
-.section__main input {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #FFAD00;
-    height: 3rem;
-    width: 6rem;
-    font-size: 1rem;
-}
-
-.section__main input:hover {
-    background-color: #FFBD00;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
-    height: 3.5rem;
-    width: 6.5rem;
-}
-
-.section__reservacion{
-    background-image: url(/img/floreroHacienda.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    height: 83vh;
-}
-
-.section__reservacion form {
-    display: inline-grid;
-    padding-top: 5rem;
-}
-
-.section__reservacion input {
-    margin-bottom: .3rem;
-}
-
-.section__reservacion textarea {
-    margin-bottom: .3rem;
-}
-
-.section__nosotros {
-    background-color: #FFDE64;
-    height: 83vh;
-    text-align: center;
-}
-
-.section__nosotros img{
-    padding-top: 4rem;
-    height: 20rem;
-    width: 40rem;
-}
-
-.section__nosotros h1 {
-    padding-top: 5rem;
-}
-
-.section__nosotros p {
-    padding-top: 2rem;
-    font-size: 1.2rem;
-}
-
-.section__contacto {
-    background-image: url(/img/vinosVintage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 83vh;
-    color: white;
-    text-align: center;
-}
-
-.section__contacto h1 {
-    padding-top: 5rem;
-    font-size: xx-large;
-}
-
-.section__contacto h3 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.section__contacto form {
-    display: inline-grid;
-
-}
-
-.section__contacto input {
-    margin-bottom: 1rem;
-}
-
-.section__contacto textarea {
-    margin-bottom: 1rem;
-}
-
-.container-fluid-contacto {
-    padding-right: 20rem;
-    padding-left: 20rem;
-}
-
-.collapse-nosotros {
-    padding: 3rem ;
-}
-
-.container-fluid-gal {
-    padding: 3.5rem;
-    background-color: #ffe27b;
-    align-items: center;
-}
-
-.section__galeria:hover {
-    background-color: #ffe27b;
-}
-
-.section__galeria img:hover {
-    width: 450px;
-    height: 250px;
-}
-
 /* -----------FOOTER------------- */
-.container-fluid footer{
-    text-align-last: center;
+.footer {
+  text-align-last: center;
 }
 
-.container-fluid footer a {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.footer .row a {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.container-fluid footer h4 {
-    font-family: 'Lobster', cursive;
+.footer .row h4 {
+  font-family: 'Lobster', cursive;
 }
 
-.fa {
-    padding: 5px;
-    font-size: 20px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-  }
+.footer .row .list-social .fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
 
-.fa:hover {
-    opacity: 0.7;
- }
- .fa-instagram {
-    background: #125688;
-    color: white;
-  }
+.footer .row .list-social .fa:hover {
+  opacity: 0.7;
+}
 
-.fa-facebook {
+.footer .row .list-social .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.footer .row .list-social .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-.fa-youtube {
-    background: #bb0000;
-    color: white;
+.footer .row .list-social .fa-youtube {
+  background: #bb0000;
+  color: white;
 }
+
+/* -----------FOOTER------------- */
+/*# sourceMappingURL=styles.css.map */
