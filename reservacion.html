@@ -5,11 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/" />
+  <meta name="description" content="Reserva un lugar en los distintos paquetes de habitaciones que ofrecemos." />
 
   <!-- titulo -->
-  <title>Tulipe SPA</title>
+  <title>Reservaciones</title>
   <!-- titulo -->
   <!-- favicon -->
   <link rel="icon" type="image/png" href="img/tulipan.png" />
@@ -77,6 +76,21 @@
     <section class="section__reservacion">
       <h2>Reservacion</h2>
       <form action="">
+      <div class="row" id="rowName">
+        <div class="col-2">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col-2">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+        </div>
+      </div>
+      <div class="row" id="rowMail">
+        <div class="col-3">
+          <input type="email" class="form-control" placeholder="Correo Electronico" aria-label="Email">
+        </div>
+      </div>
+    </form>
+      <form action="">
         <legend>Reservarcion</legend>
         <label for="name">Nombre</label>
         <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required />
@@ -95,7 +109,7 @@
     <!-- contenido -->
 
     <!-- footer -->
-    <footer>
+    <footer class="footer">
       <div class="row">
         <a href="index.html">
           <img src="img/logoTulipe.jfif" alt="logoTulipan" />

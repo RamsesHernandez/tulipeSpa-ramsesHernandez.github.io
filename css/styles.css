@@ -1,3 +1,4 @@
+/* @import url(variables.scss); */
 .container-fluid {
   background-color: #FFF4D4;
 }
@@ -55,6 +56,21 @@
 }
 
 /* ----------HOME---------*/
+/* ----------RESERVACION---------*/
+.section__reservacion #rowName {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.5rem;
+}
+
+.section__reservacion #rowMail {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* ----------RESERVACION---------*/
 /* -----------FOOTER------------- */
 .footer {
   text-align-last: center;
