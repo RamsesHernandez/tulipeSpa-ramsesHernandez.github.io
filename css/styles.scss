@@ -1,10 +1,14 @@
-.container-fluid{
-    background-color: #FFF4D4;
+/* @import url(variables.scss); */
+$primary:#FFF4D4;
+$secondary: white;
+
+.container-fluid {
+    background-color: $primary;
 }
 
 /* -------------HEADER --------------------- */
 .header {
-    background-color: #FFF4D4;
+    background-color: $primary;
     font-size: 20px;
 
     .row {
@@ -20,6 +24,8 @@
 }
 
 /* ----------CONTENIDO --------------------*/
+
+
 /* ----------HOME---------*/
 .section__mainHome{
     background-image: url(/img/haciendaRetro.jpg);
@@ -40,7 +46,7 @@
 
         p {
         background-color: rgba(224, 224, 224, 0.349);
-        color: white;
+        color: $secondary;
         font-size: 4rem;
         width: fit-content;
         font-family: 'Lobster', cursive;
@@ -49,13 +55,66 @@
 
         h2 {
         padding-bottom: 1rem;
-        color: white;
+        color: $secondary;
         font-size: 3rem;
         font-family: 'Sriracha', cursive;
         }
     }
 }
 /* ----------HOME---------*/
+
+/* ----------RESERVACION---------*/
+.section__reservacion {
+
+    margin-top: 4.5rem;
+    margin-bottom: 8rem;
+
+    p {
+        font-family: 'Orelega One', cursive;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #rowName {
+        justify-content: center;
+        margin: 1.5rem;
+    }
+    #rowMail {
+        justify-content: center;
+
+    }
+    #rowCheckdate {
+        justify-content: center;
+
+        P {
+            margin-top: 1rem;
+            font-family: 'Orelega One', cursive;
+            font-size: 1rem;
+        }
+    }
+    #rowDropdown {
+        justify-content: center;
+        margin: 1.5rem;
+    }
+    #rowSubmitClear {
+        text-align-last: center;
+        margin: 1.5rem;
+
+    }
+
+}
+/* ----------RESERVACION---------*/
+
+/* ----------Contacto---------*/
+.section__contacto {
+    margin-top: 4.5rem;
+    margin-bottom: 8rem;
+
+    #rowContacto{
+        justify-content: center;
+    }
+}
+/* ----------Contacto---------*/
 
 /* -----------FOOTER------------- */
 
@@ -88,17 +147,17 @@
          }
          .fa-instagram {
             background: #125688;
-            color: white;
+            color: $secondary;
           }
 
         .fa-facebook {
           background: #3B5998;
-          color: white;
+          color: $secondary;
         }
 
         .fa-youtube {
             background: #bb0000;
-            color: white;
+            color: $secondary;
         }
     }
 
