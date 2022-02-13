@@ -66,16 +66,55 @@ $secondary: white;
 /* ----------RESERVACION---------*/
 .section__reservacion {
 
+    margin-top: 4.5rem;
+    margin-bottom: 8rem;
+
+    p {
+        font-family: 'Orelega One', cursive;
+        font-size: 3rem;
+        text-align: center;
+    }
+
     #rowName {
         justify-content: center;
         margin: 1.5rem;
     }
-    #rowMail{
+    #rowMail {
         justify-content: center;
+
+    }
+    #rowCheckdate {
+        justify-content: center;
+
+        P {
+            margin-top: 1rem;
+            font-family: 'Orelega One', cursive;
+            font-size: 1rem;
+        }
+    }
+    #rowDropdown {
+        justify-content: center;
+        margin: 1.5rem;
+    }
+    #rowSubmitClear {
+        text-align-last: center;
+        margin: 1.5rem;
+
     }
 
 }
 /* ----------RESERVACION---------*/
+
+/* ----------Contacto---------*/
+.section__contacto {
+    margin-top: 4.5rem;
+    margin-bottom: 8rem;
+
+    #rowContacto{
+        justify-content: center;
+    }
+}
+/* ----------Contacto---------*/
 
 /* -----------FOOTER------------- */
 

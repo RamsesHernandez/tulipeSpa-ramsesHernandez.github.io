@@ -57,6 +57,17 @@
 
 /* ----------HOME---------*/
 /* ----------RESERVACION---------*/
+.section__reservacion {
+  margin-top: 4.5rem;
+  margin-bottom: 8rem;
+}
+
+.section__reservacion p {
+  font-family: 'Orelega One', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .section__reservacion #rowName {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -70,7 +81,44 @@
           justify-content: center;
 }
 
+.section__reservacion #rowCheckdate {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__reservacion #rowCheckdate P {
+  margin-top: 1rem;
+  font-family: 'Orelega One', cursive;
+  font-size: 1rem;
+}
+
+.section__reservacion #rowDropdown {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.5rem;
+}
+
+.section__reservacion #rowSubmitClear {
+  text-align-last: center;
+  margin: 1.5rem;
+}
+
 /* ----------RESERVACION---------*/
+/* ----------Contacto---------*/
+.section__contacto {
+  margin-top: 4.5rem;
+  margin-bottom: 8rem;
+}
+
+.section__contacto #rowContacto {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* ----------Contacto---------*/
 /* -----------FOOTER------------- */
 .footer {
   text-align-last: center;
